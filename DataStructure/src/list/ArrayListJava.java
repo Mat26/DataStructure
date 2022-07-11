@@ -3,6 +3,7 @@ package list;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
+import java.util.Collections;
 
 
 public class ArrayListJava {
@@ -104,8 +105,14 @@ public class ArrayListJava {
         System.out.println("**********ISEMPTY ELEMENTOS*************");
         //Es vacio
         System.out.println("¿Esta lista esta vacia? " + newArrayList.isEmpty());
-                
         
+        System.out.println("**********SORT*************");
+        Collections.sort(newArrayList3);
+        System.out.println("Sort" + newArrayList3);
+        
+        System.out.println("**********REVERSE*************");
+        Collections.reverse(newArrayList3);
+        System.out.println("Reverse" + newArrayList3);
 
         System.out.println("*************COMO RECORRER UN ARRAY LIST******************");
         readWithFor(newArrayList3);

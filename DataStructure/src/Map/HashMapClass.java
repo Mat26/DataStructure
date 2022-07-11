@@ -65,8 +65,8 @@ public class HashMapClass {
         System.out.println(diccionarioClone);
 
         HashMap<String, Carro> dicCarros = new HashMap<>();
-        dicCarros.put("1", new Carro("123", "Azul"));
-        dicCarros.put("2", new Carro("321", "Verde"));
+        dicCarros.put("1", new Carro("123", "Azul",1));
+        dicCarros.put("2", new Carro("321", "Verde",2));
         recorrerMapForEach(dicCarros);
         recorrerMapForEach2(dicCarros);
         recorrerMapForEachValues(dicCarros);
